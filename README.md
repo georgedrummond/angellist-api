@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/georgedrummond/angellist-api.png)](https://travis-ci.org/georgedrummond/angellist-api)
+
 The AngelList API Ruby Gem
 ==========================
 
