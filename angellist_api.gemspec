@@ -15,10 +15,10 @@ Gem::Specification.new do |s|
   s.files = Dir["lib/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md", "CHANGELOG.md"]
   s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency 'hashie', '>= 1.1.0'
-  s.add_dependency 'faraday', '~> 0.9'
+  s.add_dependency 'hashie'
+  s.add_dependency 'faraday'
   s.add_dependency 'faraday_middleware'
-  s.add_dependency 'multi_json', '~> 1.0'
+  s.add_dependency 'multi_json'
 
   s.add_development_dependency "rdiscount", "~> 2.0"
   s.add_development_dependency "rspec",     "~> 2.7"
