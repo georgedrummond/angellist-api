@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"]
 
   s.add_dependency 'hashie', '>= 1.1.0'
-  s.add_dependency 'faraday', '~> 0.7'
+  s.add_dependency 'faraday', '~> 0.9'
   s.add_dependency 'faraday_middleware', '~> 0.7'
   s.add_dependency 'multi_json', '~> 1.0'
 
